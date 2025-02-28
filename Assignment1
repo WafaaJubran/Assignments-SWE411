@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Assignment1-SWE411-</title>
+    </head>
+   <style>
+    body{
+        width:700px;
+        height: 500px;
+    }
+    h1{
+        margin-left: 220px;
+    }
+    img{
+        float: left;
+        margin-top: 20px;
+        width: 200px;
+        height: 180px;
+    }
+    p{
+        font-style: italic;
+        text-align: left;
+        margin-left: 225px;
+    }
+    .con{
+        background-color:rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: 1px solid black;
+        padding-right: 20px;
+        padding-left: 20px;
+        white-space: nowrap;
+        padding-bottom:18px;
+    }
+    ul{
+        margin-right: 178px;
+    }
+    ul li{
+        white-space: nowrap;
+        margin-right: 20px;
+        }
+    .message{
+        vertical-align: top;
+    }
+    .navigation{
+        background-color:rgb(255, 255, 255);
+        border: 1px solid #000 ;
+        margin-bottom: 20px;
+    }
+     .navigation a{
+        text-decoration: none;
+        color:#000;
+        font-size: 17px;
+        font-weight: 500;
+        padding-left: 90px;
+    }
+     .navigation a:hover{
+       color: rgb(77, 125, 145); 
+    }
+    .button{
+        background-color:#ffffff;
+        color:#070707;
+        text-decoration: none;
+        font-size: 13px;
+        display: inline-block;
+        padding: 5px;
+    }
+    .button:hover{
+        background-color: #94D6F6;
+        transform: scale(1.1); 
+    }
+   </style> 
+  <body>
+    <form>
+        <img src="Picture9.png" alt="profile" ><br /><br />
+        <h1>Wafaa Jubran Alwadaani</h1>
+        <p>Software Engineering Student</p><br /><br /><br />
+        <nav class="navigation">
+            <a  href="#">Home</a>
+            <a  href="#">Education</a>
+            <a  href="#">Skills</a>
+            <a  href="#">Contact me</a>
+        </nav>
+        
+       <table>
+        <tr>
+            <td >
+             <h3>Education:</h3>
+              <ul > 
+               <li >Software Engineering Student </li><br />
+               <li >High School Certificate</li>
+             </ul></td>
+            <td class="con">
+             <h3>Contact Information:</h3>
+              Email:wafaaj48@gmail.com<br />
+              Phone Number:0563112874<br />
+              Address:Sakaka-Al jouf, Al laqayt<br />
+            </td>
+        </tr>
+        </table> 
+        <h3>Skills:</h3>
+         <ul>
+          <li>Computer programming and coding</li>
+         </ul>
+        <h3>Contact me:</h3>
+        <label for="name">Name:</lable>
+        <input type="text" id="name" name="name"/><br/><br/>
+        <label for="email">Email:</lable>
+        <input type="email" id="email" name="email"/><br/><br/>
+        <label >Gender:</lable>
+        <input type="radio" id="male" name="gender" value="male"/>
+        <label for="male">Male</lable>
+        <input type="radio" id="female"  name="gender" value ="female" checked/>
+        <label for="female">Female</lable><br/><br/>
+        <label for="country">Country:</lable>
+        <select name="country" id="country">
+          <option value= "Saudi Arabia"> Saudi Arabia</option>
+          <option value= "UAE"> UAE</option>
+          <option value= "Kuwait"> Kuwait</option></select><br/><br/>
+        <label for="message">Message:</lable>
+        <textarea name="message" id="message" class="message" columns="20" rows="5"></textarea><br/><br/>
+        <input class="button" type="submit" value="Submit"/><br /><br />
+    </form>
+  </body>
+</html>
