@@ -1,0 +1,279 @@
+<html>
+<head>
+    <style>
+      .parentDiv{
+         display: flex;
+      }
+     .div1{
+        width: 300px;
+        height: 1350px;
+        background-color: rgb(79, 79, 79);
+        color: rgb(212, 212, 212);
+        align-items: center ;
+        padding-left: 30px;
+        display: inline;
+     }
+     img{
+        width: 250px;
+        height:230px;
+        margin-top: 20px;
+     }
+     hr{
+        margin-right: 30px;
+     }
+     .name{
+        font-size: 40px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        color: white;
+        display: flex;
+     }
+     span{
+        color: white;
+     }
+     p{
+        text-align: justify;
+        margin-right: 30px;
+     }
+     h2{
+        font-family:Arial;
+        font-weight: 300;
+     }
+     .dot{
+        width: 15px;
+        height: 15px;
+        border-radius:50%;
+        background-color:white;
+        display:flex; 
+        margin-left: 8px;
+        margin-top: 5px;
+        margin-right: 2px;
+     }
+     .greyDot{
+        width: 15px;
+        height: 15px;
+        border-radius:50%;
+        background-color:rgb(40, 40, 40);
+        display:flex; 
+        margin-left: 8px;
+        margin-top: 5px;
+        margin-right: 2px; 
+     }
+     .label{
+        display: flex;
+        font-size: 17px;
+        text-align: justify;
+        margin-bottom: 10px;
+     }
+     .logo,.logo1{
+      float: left;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      margin-right: 20px;
+     }
+     .logo1{
+      width: 40px;
+      height: 40px;
+      margin-bottom: 25px;
+     }
+     .follow{
+      display: flex;
+      color: white;
+      margin-top: 40px;
+     }
+     .loc{
+      color: rgb(92, 91, 91);
+      margin-left:10px;
+      font-size: 16px;
+      display: flex;
+     }
+     .div2{
+      width: 280px;
+      background-color: rgb(49, 48, 48);
+      margin-left:0;
+      padding-left:30px;
+      padding-top: 5px;
+      display: flex;
+      padding-bottom:5px;
+     }
+     .Git{
+      text-decoration: none;
+      color: white;
+     }
+     .div3{
+      width: 450px;
+      height: 1600px;
+      color: rgb(27, 27, 27);
+      background-color: rgb(252, 252, 255);
+      margin-left: 80px;
+      margin-top: 20px;
+      display: block;
+      
+     }
+     .work{
+      color: rgb(31, 212, 212);
+      font-size: 24px;
+      display: flex;
+     }
+     h4{
+      font-size: 25px;
+     }
+     h5{
+      font-size: 21px;
+     }
+     .desc{
+        text-align: justify;
+        margin-right: 30px;
+        font-size: 21px;
+      }
+      .div4{
+         width: 300px;
+         height:20px;
+         background-color: white;
+         color: black;
+         font-size: 12px;
+         margin-top: 7px;
+         margin-left: 1115px;
+         display: flex;
+      }
+      .title{
+         margin-top: 20px;
+         display: flex;
+         align-items: center;
+      }
+      .QR{
+         width: 100px;
+         height: 100px;
+         margin-top: 0;
+         display: flex;
+      }
+      .Gitimg{
+         width: 200px;
+         height: 100px;
+         margin-left: 10px;
+         display: flex;
+         align-items: center;
+      }
+      .github-container,.loc-container{
+         display: flex;
+      }
+      .locimg{
+         width: 20px;
+         height: 20px;
+         display: flex;
+         margin-left: 270px;
+         margin-top: 35px;
+      }
+      
+
+    </style>
+</head>
+<body>
+      <div class="parentDiv" >
+
+        <div class="div1">
+         <div class="div4">056 311 2874 &nbsp;&nbsp;&nbsp; wafaaj48@gmail.com</div>
+
+            <img src="Picture9.png" alt="profile" >
+            <h3 class="name">Wafaa Jubran Alwadaani</h3>
+            <h6>Software Engineering Student</h6>
+            <h6>Age: <span>21</span></h6>
+            <h6>Nationality:<span>Saudi Arabia</span></h6>
+            <h6>Language: <span>Arabic</span></h6>
+            <h6>Based in: <span>Sakaka</span></h6>
+            <hr>
+
+            <p>My name is Wafaa Jubran.I was born in Makkah.I chose to study Software Engineering because this specialisation provide excellent job opportunities also this specialisation give me the ability to be creative and solve problems where i can develop an applications or websites that help a lot of people in their daily lives.
+            <br />I have never regretted choosing this specialisationand i hope that this specialisation will be given more attention because it is an expanding field and encourages creativity.</p>
+            <hr>
+            <h2>PROFESSIONAL SKILLS</h2>
+            <div class="label">Programming &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="greyDot"></div>
+            <div class="greyDot"></div>
+            </div>
+            <div class="label">Software-Testing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="greyDot"></div>
+            </div>
+            <div class="label">Project-Management &nbsp;
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="greyDot"></div>
+            </div>
+            <div class="label">Problem-Solving  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="greyDot"></div><br /><br />
+            </div>
+            <hr>
+            <h2>Languages</h2>
+            <div class="label">Arabic-Language &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            </div>
+            <div class="label">English-Language &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="greyDot"></div><br /><br />
+            </div>
+            <div><img class="logo" src="Picture22.png" alt="follow"></div>
+            <div class="follow">FOLLOW <b>&nbsp;ME</b></div><br />
+            <div class="div2"><a class="Git" href="https://github.com/WafaaJubran">github Account</a></div>
+        </div>
+        <div class="div3">
+         <h2 class="title"><img class="logo1" src="Picture1.png" alt="work">WORK EXPERIENCE</h2>
+
+         <h5>Aug-2024</h5>
+         <h3 class="work">Summer Training</h3>
+         <h5>Prince Mutaib bin Abdulaziz Hospital</h5><hr>
+         <p class="desc">Training in Prince Mutaib bin Abdulaziz Hospital helped me as a trainee obtain a lot of information and different experiences through completing the tasks assigned to me.<br /><br /> Among the skills I acquired was the skill of communicating with others through communication with the hospital partners.<br /><br />As a Software engineer the tasks assigned to me include: <br />-Stabilize basic programs and how they operate, as well as identify the difference between hard drives.
+         <br />-Learning how devices are connected to the Ministerial dominance.
+         <br />-Identifying device forms, technical support programs and reception of requests.
+         <br />Also, in software engineering communication with clients and gathering their requirements must be mastered.
+         <br /><br />The summer training was so easy, I didn`t face any obstacles, the explanation was clear and understandable.
+         </p>
+         <div class="loc-container"><img class="locimg" src="loc.png" alt="location">
+            <h6 class="loc">Sakaka Al-Jouf</h6></div>
+         <br />
+
+      </div>
+      <div class="div3">
+         <h2 class="title"><img class="logo1" src="Picture2.png" alt="follow">EDUCATION</h2>
+
+         <h5>2021 - 2025</h5>
+         <h3 class="work">Software Engineering</h3>
+         <h5>Bachelor's Degree</h5><hr>
+         <p class="desc">I have been studying Software Engineering since 2021.At 2022-2023 I learned basics such as Introduction to Java and Introduction to Software Engineering.At 2024-2025 I learned more and more about Software Engineering.I faced challenges during this journey such as learning new programming language while the doctor`s accent is not clear and this was main reason for many learning challenges.I still need more information to be professional in this field.</p>
+         <div class="loc-container"><img class="locimg" src="loc.png" alt="location">
+            <h6 class="loc">Sakaka Al-Jouf</h6></div>
+
+         <h5>Nov-2023</h5>
+         <h3 class="work">Project Management</h3>
+         <h5>Project Management Certificate</h5><hr>
+         <p class="desc">I take a training course in Project Management at Doroob.<br />It has eight sections each section talk about specific topic in Project Management.Having a good team members save a lot of time and efforts but we can`t choose the team members in every projects.Managing a team is the hardest part in every project because of that i love to work alone.</p>
+         
+         <br />
+         
+         <div class="github-container"><img class="QR" src="WhatsApp Image 2025-03-06 at 11.03.08 PM.jpeg" alt="QR">
+         <img class="Gitimg" src="Github.png" alt="Github"></div>
+      </div>
+      </div>
+    
+</body>
+</html>
