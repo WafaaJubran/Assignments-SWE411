@@ -1,0 +1,43 @@
+h1{
+    color:red;
+    padding-left: 70px;
+    font-size: 30px;
+}
+
+
+form {
+    border: 1px solid black;
+    width: 290px;
+    padding: 12px;
+}
+
+input[type=text] , input[type=password] {
+    width: 270px;
+    height: 25px;
+    margin-top: 7px;
+}
+input[type=submit]{
+    background-color: blue;
+    color:white;
+    border: 0px;
+    padding:5px 20px;
+}
+.error {
+    color:red;
+    font-size:20px;
+}
+
+table ,td { 
+    border :1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    padding: 5px;
+
+
+}
+.red {
+    background-color:red;
+    color:white;
+}
+
+
